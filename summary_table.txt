@@ -1,0 +1,10 @@
+\begin{tabular}{lrrr}
+\toprule
+{} &  Training &       CV &  Test \\
+\midrule
+No class balancing              &       1.0 &  1.00000 &   1.0 \\
+Class balancing (undersampling) &       1.0 &  1.00000 &   1.0 \\
+Class balancing (oversampling)  &       1.0 &  1.00000 &   1.0 \\
+Class balancing (class weights) &       1.0 &  0.95396 &   1.0 \\
+\bottomrule
+\end{tabular}
