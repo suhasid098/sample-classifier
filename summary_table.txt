@@ -1,10 +1,10 @@
 \begin{tabular}{lrrr}
 \toprule
-{} &  Training &       CV &  Test \\
+{} &  Training &        CV &      Test \\
 \midrule
-No class balancing              &       1.0 &  1.00000 &   1.0 \\
-Class balancing (undersampling) &       1.0 &  1.00000 &   1.0 \\
-Class balancing (oversampling)  &       1.0 &  1.00000 &   1.0 \\
-Class balancing (class weights) &       1.0 &  0.95396 &   1.0 \\
+No class balancing              &  0.955533 &  0.043246 &  0.645497 \\
+Class balancing (undersampling) &  1.000000 &  0.350000 &  0.300000 \\
+Class balancing (oversampling)  &  0.978492 &  0.868818 &  0.300000 \\
+Class balancing (class weights) &  0.955533 &  0.080000 &  0.645497 \\
 \bottomrule
 \end{tabular}
